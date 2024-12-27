@@ -64,12 +64,12 @@ ul a{
     justify-content: center;
 }
 .hero{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,40%);
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .picture img{
+    margin-top: 20px;
     width: 500px;
     height: 360px;
     position: relative;
@@ -94,7 +94,7 @@ ul a{
     height: 70px;
     background-color: white;
     border-radius:15px;
-    padding: 10px;
+    padding: 20px 10px;
     position: absolute;
     bottom: 130px;
     right: 130px;
@@ -103,13 +103,20 @@ ul a{
     display: flex;
     gap: 5px;
     justify-content: center;
+    align-items: center;
     
 }
-.avatars .p1{
+.avatars span{
     background-color: #0D83FD;
-    border-radius: 100%;
     color: white;
-    padding: 1px;
+    font-size: 17px;
+    width: 32px;
+    height: 25px;
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
 }
 .avatars p{
     text-align: center;
@@ -306,4 +313,198 @@ ul a{
 }
 .Features21 .hrr1{
     margin: 10px 0px;
+}
+.comporis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.comporis1,.comporis2,.comporis3,.comporis4{
+    line-height: 1.5;
+}
+.comporis1 i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #EDB86E;
+}
+.comporis2 i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #0D83FD;
+}
+.comporis3 i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #47C689;
+}
+.comporis4 i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #F28484;
+}
+.comporis1{
+    background-color: #FFF3E2;
+    padding: 20px;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+}
+.comporis2{
+    background-color: #DEEDFD;
+    padding: 20px;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+}
+.comporis3{
+    background-color: #D5F1E4;
+    padding: 20px;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+}
+.comporis4{
+    background-color: #FDEDED;
+    padding: 20px;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+}
+.phone-section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.phone2 img{
+    width: 300px;
+    height: 500px;
+}
+.phone1,.phone3{
+    line-height: 1.5;
+}
+.phone11,.phone12,.phone13{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    gap: 20px;
+}
+.phone31,.phone32,.phone33{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.phone1 div i{
+    color: #0D83FD;
+    background-color: #d0dfef;
+    padding: 10px;
+    border-radius: 100%;
+}
+.phone3 div i{
+    color: #0D83FD;
+    background-color: #d0dfef;
+    padding: 10px;
+    border-radius: 100%;
+}
+.tempus{
+    display: flex;
+    justify-content: center;
+}
+.tempus1{
+    background-color: #0D83FD;
+    color: white;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    height: 200px;
+}
+.tempus1 h1{
+    font-size: 45px;
+}
+.tempus1 button{
+    margin-top: 10px;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background-color: initial;
+    border: 3px solid white;
+}
+.tempus1 button:hover{
+    background-color: white;
+    color: #0D83FD;
+}
+.Testi{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Good-box{
+    background-color: white;
+    box-shadow: 0px 3px 5px rgb(177, 176, 176);
+    padding: 20px;
+    width: 500px;
+    height: 150px;
+}
+.goodman div div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.goodman2 div div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.goodman{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.goodman2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.matt{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .hero{
+        flex-direction: column;
+    }
+    ul{
+        display: none;
+    }
+    .box{
+        display: block;
+        width: fit-content;
+    }
+    .box1{
+        margin: 10px 0px;
+    }
+    .get{
+        display: none;
+    }
+}
+@media (min-width:768px){
+    .menu-sym{
+        display: none;
+    }
+    
 }
