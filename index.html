@@ -359,8 +359,266 @@
         </div>
     </nav>
     <nav class="clients">
-        
+        <div  id="counter"></div>
+        <script>
+            const maxamed=document.getElementById('counter')
+            const limit=232
+            let counter=0
+            function updateField(){
+                counter+=1
+                if(counter < limit){
+                    maxamed.textContent = parseInt(counter)
+                    requestAnimationFrame(updateField)
+                }else{
+                    maxamed.textContent=232
+                }
+            }
+            updateField()
+        </script>
+        <div class="project">
 
+        </div>
+        
+        <div></div>
+        <div></div>
     </nav>
+    <nav class="services">
+        <div>
+            <h1>Testimonials</h1>
+            <div class="hrr"><div class="hrr1"></div></div>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+    </nav><br><br><br><br><br>
+    <nav class="services1">
+        <div class="service2">
+            <div class="ser1">
+                <div >
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div>
+                    <h1>Nesciunt Mete</h1>
+                    <p>Provident nihil minus qui consequatur non omnis maiores. <br>
+                        Eos accusantium minus dolores iure perferendis tempore <br>
+                        et consequatur.</p>
+                        <a href="">Read More &rarr;</a>
+                </div>
+            </div>
+            <div class="ser1">
+                <div>
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div>
+                    <h1>Nesciunt Mete</h1>
+                    <p>Provident nihil minus qui consequatur non omnis maiores. <br>
+                        Eos accusantium minus dolores iure perferendis tempore <br>
+                        et consequatur.</p>
+                        <a href="">Read More &rarr;</a>
+                </div>
+            </div>
+        </div>
+        <div class="service3">
+            <div class="ser1">
+                <div>
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div>
+                    <h1>Nesciunt Mete</h1>
+                    <p>Provident nihil minus qui consequatur non omnis maiores. <br>
+                        Eos accusantium minus dolores iure perferendis tempore <br>
+                        et consequatur.</p>
+                        <a href="">Read More &rarr;</a>
+                </div>
+            </div>
+            <div class="ser1">
+                <div>
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div>
+                    <h1>Nesciunt Mete</h1>
+                    <p>Provident nihil minus qui consequatur non omnis maiores. <br>
+                        Eos accusantium minus dolores iure perferendis tempore <br>
+                        et consequatur.</p>
+                        <a href="">Read More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="Testi">
+        <div>
+            <h1>Pricing</h1>
+            <div class="hrr"><div class="hrr1"></div></div>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+    </nav><br><br><br><br><br>
+    <nav class="cards">
+        <div class="card1">
+                <h1>Basic</h1>
+                <h1><sup>&dollar;</sup>9.9 <span>/Month</span></h1>
+                <p>Sed ut perspiciatis unde omnis iste natus <br>
+                    error sit voluptatem accusantium <br>
+                    doloremque laudantium totam
+                </p>
+                <p><i class="fa-solid fa-circle-check"></i>Duis aute irure dolor </p>
+                <p><i class="fa-solid fa-circle-check"></i>Excepteur sint occaecat</p>
+                <p><i class="fa-solid fa-circle-check"></i>Nemo enim ipsam voluptatem</p>
+                <button class="card1-btn">Buy Now &rarr;</button>
+        </div>
+        <div class="card2">
+            <div class="Most">Most Popular</div>
+            <h1>Basic</h1>
+            <h1><sup>&dollar;</sup>19.9 <span>/Month</span></h1>
+            <p>Sed ut perspiciatis unde omnis iste natus <br>
+                error sit voluptatem accusantium <br>
+                doloremque laudantium totam
+            </p>
+            <p><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit ame</p>
+            <p><i class="fa-solid fa-circle-check"></i>Excepteur sint occaecat</p>
+            <p><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit ame</p>
+            <p><i class="fa-solid fa-circle-check"></i>Excepteur sint occaecat</p>
+            <button class="card1-btn">Buy Now &rarr;</button>
+        </div>
+        <div class="card1">
+            <h1>Basic</h1>
+            <h1><sup>&dollar;</sup>39.9 <span>/Month</span></h1>
+            <p>Sed ut perspiciatis unde omnis iste natus <br>
+                error sit voluptatem accusantium <br>
+                doloremque laudantium totam
+            </p>
+            <h4></h4>
+            <p><i class="fa-solid fa-circle-check"></i>Duis aute irure dolor </p>
+            <p><i class="fa-solid fa-circle-check"></i>Excepteur sint occaecat</p>
+            <p><i class="fa-solid fa-circle-check"></i>Nemo enim ipsam voluptatem</p>
+            <button class="card1-btn">Buy Now &rarr;</button>
+        </div>
+    </nav><br><br><br><br><br>
+    <nav class="question">
+        <div>
+            <h1>Have a question? Check <br>out the FAQ</h1>
+            <img src="img/arrow.png" alt="">
+        </div>
+        <div class="ppp">
+            <p><a href="">Non consectetur a erat nam at lectus urna duis?</a></p>
+            <p><a href="">Feugiat scelerisque varius morbi enim nunc faucibus?</a></p>
+            <p><a href="">Dolor sit amet consectetur adipiscing elit pellentesque?</a></p>
+            <p><a href="">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</a></p>
+            <p><a href="">Tempus quam pellentesque nec nam aliquam sem et tortor?</a></p>
+            <p><a href="">Perspiciatis quod quo quos nulla quo illum ullam?</a></p>
+        </div>
+    </nav>
+    <nav class="Call-Action">
+        <div>
+            <h1>Call To Action</h1>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button>Call To Action</button>
+        </div>
+    </nav><br><br><br><br><br>
+    <nav class="services">
+        <div>
+            <h1>Contact</h1>
+            <div class="hrr"><div class="hrr1"></div></div>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+    </nav><br><br><br><br><br>
+    <nav class="Info">
+        <div class="Info1">
+            <h1>Contact Info</h1>
+            <p>Praesent sapien massa, convallis a <br>
+                pellentesque nec, egestas non nisi. Vestibulum <br>
+                ante ipsum primis
+            </p>
+            <div class="phone34">
+                <div>
+                    <i class="fa-solid fa-tv"></i>
+                </div>
+                <div>
+                    <h2>Our Location</h2>
+                    <p>A108 Adam Street <br>New York, NY 535022</p>
+                </div>
+            </div>
+            <div class="phone35">
+                <div>
+                    <i class="fa-solid fa-feather-pointed"></i>
+                </div>
+                <div>
+                    <h2>Phone Number</h2>
+                    <p>+1 5589 55488 55 <br>
+                        +1 6678 254445 41</p>
+                </div>
+            </div>
+            <div class="phone36">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+                <div>
+                    <h2>Email Address</h2>
+                    <p>info@example.com <br>
+                        contact@example.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="Info2">
+            <h1>Get In Touch</h1>
+            <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. <br>
+                Vestibulum ante ipsum primis</p>
+            <form action="">
+                <input class="inp1" type="text" placeholder="Your Name">
+                <input class="inp1" type="text" placeholder="Your Email"><br>
+                <input class="inp2" type="text" placeholder="Subject"><br>
+                <textarea name="" id="" placeholder="messege"></textarea>
+            </form>
+        </div>
+    </nav><br><br><br><br><br>
+    <nav class="footer">
+        <div class="nav-logo">
+            <div><img src="footer-logo.png" alt=""></div>
+            <div class="footer-text"></div>
+        </div>
+        </div>  
+        <nav class="text-ftr">
+        <div class="ftr1">
+            <h2>Blootslander</h2>
+            <h4> A108 Adam Street</h4>
+            <h1>New York, NY 535022</h1>
+            <h5>Phone:613787865<h5>
+            <h6>Email: info@example.com</h6>
+            <div class="social">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            </div>
+    
+    
+        </div>
+        <div class="ftr2">
+            <h5>Useful Links</h5>
+            <h6>home </h6>
+            <h6>about</h6>
+            <h6>service</h6>
+            <h6>terms service</h6>
+            <h6>privacy policy</h6>
+        </div>
+        <div class="ftr3">
+            <h5>our service</h4>
+            <h6>web design</h6>
+            <h6>web development</h6>
+            <h6>product management</h6>
+            <h6>marketing</h6>
+            <h6>graphic design</h6>
+        </div>
+        <div class="ftr4">
+            <h2>Our Newsletter</h2>
+            <h3>Subscribe to our newsletter and receive the latest news about our
+                 products and services!</h3>
+        </div>
+        <br>
+    </nav> 
+    <div class="hr"></div> 
+    <div class="eend">
+        <p class="copy">© Copyright <strong>Bootslander</strong> All Rights Reserved</p>
+        <p class="copy">Designed by <span2>BootstrapMade</span></p>
+    </div>
+    
 </body>
 </html>
